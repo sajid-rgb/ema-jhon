@@ -1,0 +1,20 @@
+.searchDiv input{
+    width: 70%;
+    margin-left: 50px;
+    height: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+   
+}
+.searchDiv{
+   
+    
+    height: 100px;
+    background-color:black;
+}
+.fontIcon{
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}

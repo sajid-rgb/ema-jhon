@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import fakeData from '../../fakeData'
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import Search from '../Searchbox/Search';
 import './Shop.css'
 
 const Shop = () => {
@@ -14,7 +15,9 @@ const Shop = () => {
         setCart(newCart)
     }
     return (
-        <div className='shop'>
+        <section>
+            <Search cart={cart}></Search>
+            <div className='shop'>
             <div className="product">
            
                 {
@@ -28,6 +31,7 @@ const Shop = () => {
             </div>
             
         </div>
+        </section>
     );
 };
 
